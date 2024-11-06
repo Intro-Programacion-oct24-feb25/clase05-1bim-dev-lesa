@@ -26,6 +26,8 @@ public class Ejemplo6 {
         // J    2 
         // A    3
         // 
+        // con el substring sacamos los caracteres de la palabra y siempre el limie es 1 antres del que seleccionamos 
+        // Loja con (0,3) es loj osea 0 1 2
         String inicial = ciudad.substring(0, 1); // se obtiene 
         // el primer 
         // caracter de la cadena

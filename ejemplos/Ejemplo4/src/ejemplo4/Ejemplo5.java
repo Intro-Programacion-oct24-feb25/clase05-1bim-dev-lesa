@@ -23,7 +23,7 @@ public class Ejemplo5 {
         entrada.useLocale(Locale.US);
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
-
+    // ! esta negando la igualdad
         if (!ciudad.equals("Loja")) {
             System.out.printf("%s\n", "acceso correcto");
         } else {
@@ -34,6 +34,7 @@ public class Ejemplo5 {
 
         if (numero != 10) {
             System.out.println("correcto");
+
         }
 
     }
