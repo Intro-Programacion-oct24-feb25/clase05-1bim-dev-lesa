@@ -24,13 +24,14 @@ public class Ejemplo3 {
         // >= 5 and < 7.5 Suspenso
         // >= 3 and < 5 Recuperación
         // < 3 Reprobado
-        double promedio = 2;
+        double promedio = 6;
 
         if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         } else {
-            if ((promedio >= 5) && (promedio < 7.5)) {
+            if ((promedio >= 5) && (promedio < 7.5)) { 
+    // el or || no se debe utilizar porque necesitamos que cumpla 2 condiciones
                 System.out.printf("Estudiante en suspenso con un "
                         + "promedio: %.2f\n", promedio);
             } else {
